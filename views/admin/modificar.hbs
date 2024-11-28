@@ -1,0 +1,39 @@
+<div class="container" style="margin:100px auto">
+    <div class="row">
+        <div class="col-6 offset-3">
+            <h4>Modificar los datos</h4>
+            <form action="/admin/administrador/modificar" method="post" enctype="multipart/form-data">
+                <input type="hidden" value="{{administrador.id}}" name="id">
+                <div class="mb-3 row">
+                    <input type="text" placeholder="Título" value="{{administrador.titulo}}" class="form-control" name="titulo">
+                </div>
+
+                <div class="mb-3 row">
+                    <label> Imagen: <input type="file"  class="form-control" name="imagen" id="imagen"></label>
+                </div> 
+
+                <div class="mb-3 row">   
+                    <label> <input type="checkbox" name="img_delete" id="img_delete" value="1">
+                        ¿Eliminar imagen actual?
+                    </label>
+                    <input type="hidden" name="img_original" value="{{administrador.img_id}}">
+                </div>
+
+                <div class="mb-3 row">
+                    <textarea placeholder="Subtitulo" class="form-control" name="subtitulo"> {{administrador.subtitulo}} </textarea>
+                </div>
+
+                <div class="mb-3 row">
+                    <textarea placeholder="Cuerpo" class="form-control" name="cuerpo"> {{administrador.cuerpo}} </textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary"> Modificar </button>
+
+            </form>    
+
+            {{#if error}}
+                <h5> {{message}} </h5>
+            {{/if}}
+        </div>
+    </div>
+</div>
