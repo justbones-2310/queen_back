@@ -11,7 +11,7 @@ var session = require('express-session');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-var loginRouter = require('./routes/admin/login');//ruta admi login paso 1
+var loginRouter = require('./routes/admin/login');
 var adminRouter = require('./routes/admin/administrador');
 var apiRouter = require('./routes/api');
 
@@ -55,7 +55,7 @@ app.use(fileUpload({
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
-app.use('/admin/login', loginRouter); //ruta admi login paso 2: cuando llegue a ... utilizar ... = Controlador
+app.use('/admin/login', loginRouter);
 app.use('/admin/administrador', secured, adminRouter);
 app.use('/api', cors(), apiRouter);
 

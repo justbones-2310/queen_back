@@ -1,5 +1,3 @@
-//copia de la estructura del index
-//ruta admi login 3 paso y creación de carpeta admin en views
 var express = require('express');
 var router = express.Router();
 var usuarioModel = require('./../../models/usuarioModel');
