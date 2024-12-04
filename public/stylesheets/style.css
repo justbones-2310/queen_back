@@ -159,14 +159,7 @@ button:hover {
 .go-back:hover {
   color: #fff;
 }
-/*inicio administrador*/
-
-/*Inicio administrador*/
-.container {
-  min-height: 100vh;
-}
 /*Fin nuevo*/
-
 
 /* Media Queries */
 /* Tablets (max-width: 1024px) */
@@ -213,6 +206,10 @@ button:hover {
     }
     footer .social a {
       margin: 0 10px;
+    }
+    /*Inicio administrador*/
+    .admin {
+      padding-bottom: 10em;  
     }
   }
   
