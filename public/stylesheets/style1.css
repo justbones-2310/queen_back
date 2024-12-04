@@ -194,7 +194,7 @@ footer .social p {
         height: 100%;
     }
     .logo-de-la-banda {
-        height: 10vh;
+        height: 8vh;
         margin-top: 10px;
         border-radius: 10%;
         transition: box-shadow 0.3s ease, transform 0.3s ease;
@@ -213,8 +213,8 @@ footer .social p {
       }
     .wrapper {
       width: 80%;
-      margin-top: 200px;
-      margin-bottom: 10px;
+      margin-top: 100px;
+      margin-bottom: 100px;
       padding: 10px 20px; 
     }
     .input-box input {
