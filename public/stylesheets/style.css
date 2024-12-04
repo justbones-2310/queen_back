@@ -270,16 +270,10 @@ button:hover {
       height: 30px;
       font-size: 16px;
     }
-    button{
+    button, .go-back{
       color: #fff;
     }
-    button:hover {
+    button:hover, .go-back:hover {
       color: #c39717;
-    }
-    .go-back{
-      color: #fff;
-    }
-    .go-back:hover {
-      color: #c39717;
-    }
+    }  
   }
