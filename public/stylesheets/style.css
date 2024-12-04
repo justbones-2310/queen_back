@@ -136,10 +136,11 @@ footer .social p {
 /*Fin login*/
 
 /*inicio administrador*/
-button .btn{
+button{
   background: transparent;
   text-decoration: none;
   text-transform: uppercase;
+  padding: 5px;
 }
 .go-back{
   display: inline-block;
