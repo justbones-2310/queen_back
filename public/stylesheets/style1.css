@@ -186,6 +186,7 @@ footer .social p {
   /* Small Phones (max-width: 480px) */
   @media (max-width: 480px) {
     body {
+        background-color: #363636;
         width: 100vh;
         min-height: 100vh;
         display: flex;
@@ -194,12 +195,13 @@ footer .social p {
         align-items: center;
         border: 1px solid darkblue;
     }
-    header {
-        margin-top: auto;
+    .logo-de-la-banda {
+        height: 10vh;
+        margin-top: 100px;
     }
     .wrapper {
       width: 50%;
-      margin-top: 50px;
+      margin-top: 300px;
       padding: 10px 20px;
       margin-bottom: 100px;
     }
