@@ -212,9 +212,9 @@ footer .social p {
         }
       }
     .wrapper {
-      width: 80%;
+      width: 70%;
       margin-top: 100px;
-      margin-bottom: 100px;
+      margin-bottom: 70px;
       padding: 10px 20px; 
     }
     .input-box input {
@@ -229,9 +229,12 @@ footer .social p {
       padding: 5px 0;
       margin-top: auto;
     }
+    footer p {
+        font-size: 12px;
+    }
     footer .social a {
       width: 30px;
       height: 30px;
-      font-size: 18px;
+      font-size: 16px;
     }
   }
