@@ -136,13 +136,19 @@ footer .social p {
 /*Fin login*/
 
 /*inicio administrador*/
-.btn-2 {
+button {
+  background: transparent;
+}
+.go-back{
   display: inline-block;
   color: black;
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 700;
   padding: 15px;  
+}
+.go-back:hover {
+  color: #fff;
 }
 /*inicio administrador*/
 
