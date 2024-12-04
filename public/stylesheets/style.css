@@ -208,9 +208,11 @@ button:hover {
       margin: 0 10px;
     }
     /*Inicio administrador*/
-    .container {
-      grid-gap: 5px;
-    }
+    .admin{
+      margin-bottom: 10px;
+    }  
+     /*fin administrador*/
+
   }
   
   /* Small Phones (max-width: 480px) */
