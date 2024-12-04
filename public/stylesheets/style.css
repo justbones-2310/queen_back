@@ -77,7 +77,7 @@ footer .social p {
 .wrapper {
   width: 420px;
   background: transparent;
-  border: 2px solid rgba(255, 255, 255, .2);
+  border: 2px solid rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(1px);
   /*color: #fff;*/
   border-radius: 10px;
@@ -160,6 +160,10 @@ button:hover {
 }
 /*Fin nuevo*/
 
+p, h3 {
+  color: black;
+}
+
 /* Media Queries */
 /* Tablets (max-width: 1024px) */
 @media (max-width: 1024px) {
@@ -206,10 +210,6 @@ button:hover {
     footer .social a {
       margin: 0 10px;
     }
-    /*Inicio administrador*/
- 
-     /*fin administrador*/
-
   }
   
   /* Small Phones (max-width: 480px) */
