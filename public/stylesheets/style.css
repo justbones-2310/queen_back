@@ -208,8 +208,8 @@ button:hover {
       margin: 0 10px;
     }
     /*Inicio administrador*/
-    .admin {
-      padding-bottom: 10em;  
+    .container {
+      grid-gap: 5px;
     }
   }
   
