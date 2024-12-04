@@ -23,7 +23,6 @@ body {
 /*inicio header*/
 .logo-de-la-banda {
   margin-top: 200px;
-  height: 10vh;
   margin: 2rem;
   border-radius: 10%;
   transition: box-shadow 0.3s ease, transform 0.3s ease;
