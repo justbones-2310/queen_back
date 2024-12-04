@@ -216,7 +216,7 @@ button:hover {
   /* Small Phones (max-width: 480px) */
   @media (max-width: 480px) {
     body {
-        background-image: url(../images/leyendas.jpg);
+        background-image: url(../images/queen_bio3.1.jpg);
     }
     header {
         width: 100%;
