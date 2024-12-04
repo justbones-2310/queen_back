@@ -139,7 +139,7 @@ footer .social p {
 /* Tablets (max-width: 1024px) */
 @media (max-width: 1024px) {
     .logo-de-la-banda {
-      height: 8vh;
+      height: 15vh;
       margin-top: 150px;
     }
     .wrapper {
@@ -167,7 +167,7 @@ footer .social p {
       background-position: top;
     }
     .logo-de-la-banda {
-      height: 8vh;
+      height: 15vh;
       margin-top: 100px;
     }
     .wrapper {
@@ -211,7 +211,7 @@ footer .social p {
         }
       }
       .login{
-        height: 100vh;
+        height: 90%;
       }
     .wrapper {
       width: 70%;
