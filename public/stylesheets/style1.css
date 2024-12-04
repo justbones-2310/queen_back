@@ -214,8 +214,8 @@ footer .social p {
     .wrapper {
       width: 80%;
       margin-top: 250px;
-      padding: 10px 20px;
-      margin-bottom: 100px;
+      margin-bottom: 50px;
+      padding: 10px 20px; 
     }
     .input-box input {
       font-size: 12px;
