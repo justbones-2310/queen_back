@@ -211,6 +211,9 @@ footer .social p {
             box-shadow: 0 0 30px 15px rgba(255, 255, 255, 0.9);
         }
       }
+      .login{
+        height: 100vh;
+      }
     .wrapper {
       width: 70%;
       margin-top: 100px;
