@@ -160,10 +160,6 @@ button:hover {
 }
 /*Fin nuevo*/
 
-p, h3 {
-  color: black;
-}
-
 /* Media Queries */
 /* Tablets (max-width: 1024px) */
 @media (max-width: 1024px) {
