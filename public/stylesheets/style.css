@@ -135,7 +135,7 @@ footer .social p {
 }
 /*Fin login*/
 
-/*inicio administrador*/
+/*inicio nuevo*/
 button{
   background: transparent;
   text-decoration: none;
@@ -159,7 +159,7 @@ button:hover {
 .go-back:hover {
   color: #fff;
 }
-/*inicio administrador*/
+/*inicio nuevor*/
 
 /*Inicio nuevo*/
 
@@ -269,5 +269,17 @@ button:hover {
       width: 30px;
       height: 30px;
       font-size: 16px;
+    }
+    button{
+      color: #fff;
+    }
+    button:hover {
+      color: #c39717;
+    }
+    .go-back{
+      color: #fff;
+    }
+    .go-back:hover {
+      color: #c39717;
     }
   }
