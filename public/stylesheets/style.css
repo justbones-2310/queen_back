@@ -159,10 +159,12 @@ button:hover {
 .go-back:hover {
   color: #fff;
 }
-/*inicio nuevor*/
+/*inicio administrador*/
 
-/*Inicio nuevo*/
-
+/*Inicio administrador*/
+.container {
+  min-height: 100vh;
+}
 /*Fin nuevo*/
 
 
