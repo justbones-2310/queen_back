@@ -271,3 +271,135 @@ button:hover {
       color: #c39717;
     }  
   }
+
+  /* Estilos administrador */
+.container {
+  margin: 100px auto;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0;
+}
+
+.text-end {
+  text-align: end;
+}
+
+.text-start {
+  text-align: start;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  text-align: left;
+}
+
+.table-dark {
+  background-color: #343a40;
+  color: white;
+}
+
+.btn {
+  padding: 10px 15px;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-success {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: white;
+}
+
+/* Responsivo para pantallas de hasta 768px */
+@media (max-width: 768px) {
+  .container {
+      margin: 50px auto;
+      padding: 0 20px;
+  }
+
+  .row {
+      flex-direction: column;
+      margin: 10px 0;
+  }
+
+  .text-end,
+  .text-start {
+      text-align: center;
+  }
+
+  .col-7,
+  .col-5 {
+      width: 100%;
+      margin-bottom: 10px;
+  }
+
+  .btn {
+      font-size: 12px;
+      padding: 8px 10px;
+  }
+
+  .table th,
+  .table td {
+      font-size: 14px;
+  }
+}
+
+/* Responsivo para pantallas de hasta 480px */
+@media (max-width: 480px) {
+  .container {
+      margin: 20px auto;
+      padding: 0 10px;
+  }
+
+  .row {
+      flex-direction: column;
+      margin: 5px 0;
+  }
+
+  .text-end,
+  .text-start {
+      text-align: center;
+  }
+
+  .col-7,
+  .col-5 {
+      width: 100%;
+      margin-bottom: 5px;
+  }
+
+  .btn {
+      font-size: 12px;
+      padding: 6px 8px;
+  }
+
+  .table th,
+  .table td {
+      font-size: 12px;
+      padding: 6px;
+  }
+
+  .table-dark {
+      font-size: 14px;
+  }
+}
